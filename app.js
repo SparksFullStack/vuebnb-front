@@ -1,3 +1,12 @@
 const app = new Vue({
-    el: '#app'
-})
+    el: '#app',
+    data: {
+        title: sample.title,
+        address: sample.address,
+        about: sample.about,
+        headerImageStyle: {
+            'background-image': 'url(sample/header.jpg)'
+        }
+    }
+});
+
